@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <EditText
+            android:id="@+id/input_register"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:hint="register name" />
+
+        <Button
+            android:id="@+id/register"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:text="register" />
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <EditText
+            android:id="@+id/input_discover"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:hint="discover name"/>
+        <Button
+            android:id="@+id/discover"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:text="discover" />
+    </RelativeLayout>
+
+    <Button
+        android:id="@+id/tear_down"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="tearDown"/>
+
+    <ListView
+        android:id="@+id/result_list"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+
+</LinearLayout>
